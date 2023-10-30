@@ -1,0 +1,183 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+@media (max-width: 670px) {
+    .search{
+        display: none;
+    }
+    
+}
+.header-a{
+    display: grid;
+    grid-template-columns: 0.8fr 0.5fr 0.5fr;
+    background-color: white;
+    padding-left: 15px;
+
+}
+@media (min-width: 670px){
+.header-a{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 0.8fr 2fr 0.8fr;
+    
+    
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: center;
+    
+   
+}
+ 
+
+}
+.left-section{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    
+}
+.middle-section{
+
+    display: grid;
+    grid-template-columns: 4fr 0.5fr 0.5fr;
+    align-items: center;
+    
+
+}
+
+       
+.right-section{
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
+    align-items: center;
+    column-gap: 8px;
+}
+
+
+.search{
+    height: 39px;
+    width: 100%;
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid grey;
+
+}
+.profile-pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.mic{
+    border-radius:50%;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (min-width:670px) {
+    
+
+.magnifying-lens{
+    border-top-right-radius:  70px;
+    border-bottom-right-radius:70px;
+    border: 1px solid grey;
+    padding: 5px 5px 11px 5px
+}
+
+    
+}
+.create-icon:hover, .notification-icon:hover{
+    background-color: rgb(216, 213, 213);
+    border-radius: 50%;
+    border: 1px solid rgb(216, 213, 213)
+
+}
+
+.top-space{
+    margin-top: 80px;
+  
+}
+.sidebar > span{
+    display: block;
+}
+.home{
+    display: flex;
+    column-gap: 35px;
+}
+.home-a{
+    display: flex;
+    column-gap: 35px;
+    background-color: rgb(235, 227, 227);
+    cursor: pointer;
+    border-radius: 10px;
+    z-index: 3;
+
+}
+.home:hover{
+    background-color: rgb(235, 227, 227);
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.display{
+      display: grid;
+    grid-template-columns: 190px 2fr;
+    padding-top: 0;
+}
+@media (max-width:600px) {
+    
+.display{
+    grid-template-columns:50px 2fr ;
+
+
+}
+}
+aside{
+    overflow-y: scroll;
+    float: left;
+    
+}
+
+.link-style{
+    display: flex;
+}
+.header-b{
+    padding-left: 250px;
+    background-color:white;
+    z-index: -1;
+}
+@media (max-width: 1300px) {
+    .header-b{
+        visibility: hidden;
+    }
+  
+    
+}
+
+.others{
+    border: 0;
+    background-color:rgb(235, 227, 227);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+
+}
+
+
+
+
+body{
+    padding-left: 15px;
+    
+}

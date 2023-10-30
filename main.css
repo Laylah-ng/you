@@ -1,0 +1,17 @@
+.geng{
+    object-fit: cover;
+position: relative;
+width: auto;
+height: 200px
+}
+    
+/* }
+.video-cover{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    column-gap: 20px;
+    padding-top: 60px;
+    z-index: -2;
+    float: left;
+    
+} */
