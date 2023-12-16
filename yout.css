@@ -104,7 +104,7 @@
 }
 
 .top-space{
-    margin-top: 80px;
+    margin-top: 70px;
   
 }
 .sidebar > span{
@@ -143,8 +143,11 @@
 }
 }
 aside{
-    overflow-y: scroll;
+    position: fixed;
+    overflow-y:scroll;
     float: left;
+    left:15px;
+    height:100%;
     
 }
 
@@ -152,9 +155,10 @@ aside{
     display: flex;
 }
 .header-b{
-    padding-left: 250px;
+    left:210px;
     background-color:white;
     z-index: -1;
+    
 }
 @media (max-width: 1300px) {
     .header-b{
@@ -174,10 +178,7 @@ aside{
 
 }
 
-
-
-
 body{
-    padding-left: 15px;
+    padding-left: 105px;
     
 }
